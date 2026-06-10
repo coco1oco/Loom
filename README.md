@@ -1,15 +1,56 @@
-## About Loom
+# Welcome to your Expo app 👋
 
-**Loom** is a robust, native mobile house management application built specifically for students and roommates sharing co-living spaces. In shared environments, logistical coordination—such as splitting utility bills, managing grocery runs, and maintaining fair chore cycles—is often a primary source of social friction. Loom solves this by transforming household administration into a streamlined, high-trust digital ecosystem.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Unlike traditional web-based utilities, Loom is developed as a **fully native mobile application** to maximize real-time reliability, ensure persistent push notifications for overdue tasks, and provide offline data availability when local networks fail.
+## Get started
 
-### Key Value Propositions
-* **Automated Accountability:** Moves beyond simple "to-do lists" by implementing dynamic chore wheels and rotation logic.
-* **Financial Transparency:** Handles multi-party expense splitting with precision ledger tracking.
-* **Low-Friction UI/UX:** Built with a premium, mobile-first interface optimized for rapid, daily micro-interactions.
+1. Install dependencies
 
-### Technical Architecture & Highlights
-* **Cross-Platform Native UI:** Leveraging **React Native** (or TypeScript/Tailwind CSS) to deliver fluid, gesture-driven interfaces and persistent hardware notifications.
-* **Real-Time Data Layer:** Powered by **Supabase Realtime** to instantly synchronize chore completions and financial updates across all household devices without requiring manual pull-to-refresh.
-* **Granular Data Security:** Implements **Supabase Row Level Security (RLS)** to enforce strict user-role permissions, ensuring financial ledgers and personal assignments are only modifiable by authorized roommates.
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+### Other setup steps
+
+- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
+- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
+- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
