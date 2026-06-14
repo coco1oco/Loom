@@ -53,3 +53,4 @@ venv/
 env/
 .venv/
 .env/
+test-report.html
