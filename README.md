@@ -7,14 +7,14 @@ Unlike traditional web-based utilities, Loom is developed as a **fully native mo
 ---
 
 ### Key Value Propositions
-* 🔄 **Automated Accountability:** Moves beyond simple "to-do lists" by implementing dynamic chore wheels and rotation logic.
-* 💳 **Financial Transparency:** Handles multi-party expense splitting with precision ledger tracking.
-* ✨ **Low-Friction UI/UX:** Built with a premium, mobile-first interface optimized for rapid, daily micro-interactions.
+* **Automated Accountability:** Moves beyond simple "to-do lists" by implementing dynamic chore wheels and rotation logic.
+* **Financial Transparency:** Handles multi-party expense splitting with precision ledger tracking.
+* **Low-Friction UI/UX:** Built with a premium, mobile-first interface optimized for rapid, daily micro-interactions.
 
 ### Technical Architecture & Highlights
-* 📱 **Cross-Platform Native UI:** Leveraging **React Native** (Expo SDK 56) to deliver fluid, gesture-driven interfaces and persistent hardware notifications.
-* ⚡ **Real-Time Data Layer:** Powered by **Supabase Realtime** to instantly synchronize chore completions and financial updates across all household devices without requiring manual pull-to-refresh.
-* 🔐 **Granular Data Security:** Implements **Supabase Row Level Security (RLS)** to enforce strict user-role permissions, ensuring financial ledgers and personal assignments are only modifiable by authorized roommates.
+* **Cross-Platform Native UI:** Leveraging **React Native** (Expo SDK 56) to deliver fluid, gesture-driven interfaces and persistent hardware notifications.
+* **Real-Time Data Layer:** Powered by **Supabase Realtime** to instantly synchronize chore completions and financial updates across all household devices without requiring manual pull-to-refresh.
+* **Granular Data Security:** Implements **Supabase Row Level Security (RLS)** to enforce strict user-role permissions, ensuring financial ledgers and personal assignments are only modifiable by authorized roommates.
 
 ---
 
